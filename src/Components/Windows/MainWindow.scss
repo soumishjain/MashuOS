@@ -1,8 +1,9 @@
 .window{
-    height: 500px;
-    width: 700px;
     background: #111;
     border-radius: 0.75rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100%;
     .top{
         padding-inline: 0.5rem;
         padding-block: 0.5rem;
