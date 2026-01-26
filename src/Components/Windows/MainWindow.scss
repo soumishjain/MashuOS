@@ -1,0 +1,29 @@
+.window{
+    height: 500px;
+    width: 700px;
+    background: #111;
+    border-radius: 0.75rem;
+    .top{
+        padding-inline: 0.5rem;
+        padding-block: 0.5rem;
+        border-bottom: 2px solid rgba(113, 113, 113, 0.297);
+        .dots{
+        display: flex;
+        gap: 0.5rem;
+        .dot{
+            height: 1rem;
+            width: 1rem;
+            border-radius: 50%;
+        }
+        .red{
+            background: rgb(252, 58, 58);
+        }
+        .yellow{
+            background: rgb(255, 255, 65);
+        }
+        .green{
+            background: rgb(66, 255, 66);
+        }
+    }
+    }
+}
