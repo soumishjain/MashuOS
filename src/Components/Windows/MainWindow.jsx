@@ -13,7 +13,9 @@ const MainWindow = () => {
                     <div className="dot green"></div>
                 </div>
             </div>
-            <div className="windowsec"></div>
+            <div className="windowsec">
+                <h1>Hellooo</h1>
+            </div>
         </div>
     </Rnd>
   )

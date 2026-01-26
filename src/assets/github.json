@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "image": "https://raw.githubusercontent.com/facebook/react/main/fixtures/dom/public/react-logo.svg",
+    "title": "React",
+    "description": "A JavaScript library for building user interfaces, maintained by Meta and the open-source community.",
+    "tags": ["JavaScript", "React", "Frontend", "UI"],
+    "repoLink": "https://github.com/facebook/react",
+    "demoLink": "https://react.dev"
+  },
+  {
+    "id": 2,
+    "image": "https://avatars.githubusercontent.com/u/9950313?s=400&v=4",
+    "title": "Node.js",
+    "description": "A JavaScript runtime built on Chrome's V8 engine for building scalable network applications.",
+    "tags": ["Node.js", "JavaScript", "Backend"],
+    "repoLink": "https://github.com/nodejs/node",
+    "demoLink": "https://nodejs.org"
+  },
+  {
+    "id": 3,
+    "image": "https://avatars.githubusercontent.com/u/47359?s=400&v=4",
+    "title": "Express.js",
+    "description": "Fast, unopinionated, minimalist web framework for Node.js used to build RESTful APIs.",
+    "tags": ["Express", "Node.js", "Backend", "API"],
+    "repoLink": "https://github.com/expressjs/express",
+    "demoLink": "https://expressjs.com"
+  },
+  {
+    "id": 4,
+    "image": "https://avatars.githubusercontent.com/u/67109815?s=400&v=4",
+    "title": "Next.js",
+    "description": "A React framework for building full-stack web applications with server-side rendering.",
+    "tags": ["Next.js", "React", "Full Stack"],
+    "repoLink": "https://github.com/vercel/next.js",
+    "demoLink": "https://nextjs.org"
+  },
+  {
+    "id": 5,
+    "image": "https://avatars.githubusercontent.com/u/33784865?s=400&v=4",
+    "title": "Tailwind CSS",
+    "description": "A utility-first CSS framework for rapidly building custom user interfaces.",
+    "tags": ["CSS", "Tailwind", "Frontend"],
+    "repoLink": "https://github.com/tailwindlabs/tailwindcss",
+    "demoLink": "https://tailwindcss.com"
+  }
+]
