@@ -1,8 +1,7 @@
 .window{
     background: #111;
     border-radius: 0.75rem;
-    overflow-x: hidden;
-    overflow-y: auto;
+    overflow: hidden;
     height: 100%;
     .top{
         padding-inline: 0.5rem;
@@ -26,5 +25,16 @@
             background: rgb(66, 255, 66);
         }
     }
+    }
+    .windowsec{
+        height: 100%;
+    }
+
+    *::-webkit-scrollbar{
+        width: 8px;
+    }
+    *::-webkit-scrollbar-thumb{
+        background: rgba(168,168,168,0.4);
+        border-radius: 4px;
     }
 }
