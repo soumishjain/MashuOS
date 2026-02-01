@@ -2,9 +2,16 @@ import React from 'react'
 import { Rnd } from 'react-rnd'
 import "./MainWindow.scss"
 
-const MainWindow = () => {
+const MainWindow = ({children}) => {
   return (
-    <Rnd>
+    <Rnd
+    default={{
+        width:"40vw",
+        height:"40vh",
+        x:200,
+        y:200
+    }}
+    >
         <div className='window'>
             <div className="top">
                 <div className="dots">
@@ -13,7 +20,9 @@ const MainWindow = () => {
                     <div className="dot green"></div>
                 </div>
             </div>
-            <div className="windowsec"></div>
+            <div className="windowsec">
+                {children}
+            </div>
         </div>
     </Rnd>
   )
