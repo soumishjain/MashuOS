@@ -5,6 +5,7 @@ import Github from './Windows/Github'
 import Note from './Windows/Note'
 import Resume from './Windows/Resume'
 import Spotify from './Windows/Spotify'
+import Cli from './Windows/Cli'
 
 const Main = () => {
   return (
@@ -15,6 +16,7 @@ const Main = () => {
       <Note />
       <Resume />
       <Spotify />
+      <Cli />
     </div>
   )
 }
